@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class MenjumlahkanAngka { 
+    public static void main(String[] args) {
+        // Membuat ClassScanner agar dapat memasukkan input pengguna 
+        Scanner input = new Scanner(System.in);
+
+        // Meminta User memasukkan inputan pertama
+        System.out.print("Masukkan Angka Ke-1 : "); 
+        int angka1 = input.nextInt();
+
+        // Meminta User memasukkan inputan kedua
+        System.out.print("Masukkan Angka Ke-2 : "); 
+        int angka2 = input.nextInt(); 
+
+        // Rumus Penjumlahan 
+        int jumlah = angka1 + angka2; 
+
+        // Mencetak Hasil 
+        System.out.print("Hasil Penjumlahan dari " + angka1 + " dan " + angka2 + " adalah = " + jumlah);
+    
+    }
+}
